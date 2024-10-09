@@ -1,20 +1,9 @@
 #!/usr/bin/python3
-"""Define a rectangle"""
+"""Define a rectangle class."""
 
 
 class Rectangle:
-    """Class that defines a rectangle by its width and height,
-    with methods to calculate area and perimeter.
-
-    Attributes:
-        width (int): The width of the rectangle (default is 0).
-        height (int): The height of the rectangle (default is 0).
-
-    Methods:
-        __init__(self, width=0, height=0): Initializes a rectangle instance.
-        area(self): Calculates and returns the rectangle's area.
-        perimeter(self): Calculates and returns the rectangle's perimeter.
-    """
+    """Class that defines a rectangle by its width and height."""
 
     def __init__(self, width=0, height=0):
         """Initialize a new Rectangle instance.
@@ -76,7 +65,7 @@ class Rectangle:
         Returns:
             int: The area of the rectangle (width * height).
         """
-            return self.__width * self.__height
+            return (self.__width * self.__height)
 
         def perimeter(self):
             """Calculate and return the perimeter of the rectangle.
