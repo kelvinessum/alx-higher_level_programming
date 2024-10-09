@@ -55,6 +55,7 @@ def nqueens(N):
 
 
 if __name__ == "__main__":
+    """Check the number of arguments"""
     if len(sys.argv) != 2:
         print("Usage: nqueens N")
         sys.exit(1)
