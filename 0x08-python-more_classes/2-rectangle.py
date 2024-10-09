@@ -1,14 +1,15 @@
 #!/usr/bin/python3
+"""Define a rectangle"""
 
-#!/usr/bin/python3
+
 class Rectangle:
         """Class that defines a rectangle by its width and height, 
     with methods to calculate area and perimeter.
-    
+
     Attributes:
         width (int): The width of the rectangle (default is 0).
         height (int): The height of the rectangle (default is 0).
-    
+
     Methods:
         __init__(self, width=0, height=0): Initializes a rectangle instance.
         area(self): Calculates and returns the rectangle's area.
@@ -17,7 +18,7 @@ class Rectangle:
 
     def __init__(self, width=0, height=0):
                         """Initialize a new Rectangle instance.
-        
+
         Args:
             width (int): The width of the rectangle (default is 0).
             height (int): The height of the rectangle (default is 0).
@@ -33,10 +34,10 @@ class Rectangle:
     @width.setter
     def width(self, value):
         """Set the width of the rectangle.
-        
+
         Args:
             value (int): The new width value.
-        
+
         Raises:
             TypeError: If width is not an integer.
             ValueError: If width is less than 0.
@@ -55,10 +56,10 @@ class Rectangle:
     @height.setter
     def height(self, value):
         """Set the height of the rectangle.
-        
+
         Args:
             value (int): The new height value.
-        
+
         Raises:
             TypeError: If height is not an integer.
             ValueError: If height is less than 0.
@@ -71,7 +72,7 @@ class Rectangle:
 
         def area(self):
             """Calculate and return the area of the rectangle.
-        
+
         Returns:
             int: The area of the rectangle (width * height).
         """
@@ -79,7 +80,7 @@ class Rectangle:
 
         def perimeter(self):
             """Calculate and return the perimeter of the rectangle.
-        
+
         Returns:
             int: The perimeter of the rectangle (2 * (width + height)).
                  If width or height is 0, returns 0.
