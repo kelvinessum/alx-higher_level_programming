@@ -2,7 +2,7 @@
 """Solves the N-queens puzzle"""
 
 import sys
-
+"""importing system."""
 
 def print_solution(board):
     """Print the board in the required format."""
