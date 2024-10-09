@@ -3,7 +3,7 @@
 
 
 class Rectangle:
-        """Class that defines a rectangle by its width and height, 
+    """Class that defines a rectangle by its width and height,
     with methods to calculate area and perimeter.
 
     Attributes:
@@ -17,7 +17,7 @@ class Rectangle:
     """
 
     def __init__(self, width=0, height=0):
-                        """Initialize a new Rectangle instance.
+        """Initialize a new Rectangle instance.
 
         Args:
             width (int): The width of the rectangle (default is 0).
