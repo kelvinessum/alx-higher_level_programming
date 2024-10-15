@@ -9,6 +9,10 @@ class MyList(list):
     """
     A subclass of list that implements a method to print the list in sorted order.
     """
+    def __init__(self):
+        """initializes the object"""
+        super().__init__()
+
     def print_sorted(self):
         """
         Prints the list elements in ascending order (sorted).
