@@ -7,7 +7,8 @@ It contains a method to print the list elements in ascending order.
 
 class MyList(list):
     """
-    A subclass of list that implements a method to print the list in sted .
+    A subclass of list that implements a method to print the list in sted.
+
     """
     def __init__(self):
         """initializes the object"""
