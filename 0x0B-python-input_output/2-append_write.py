@@ -4,7 +4,7 @@ This module defines a function to write a string to a text file.
 """
 
 
-def write_file(filename="", text=""):
+def append_write(filename="", text=""):
     """
     Writes a string to a text file (UTF8) and returns the number of char.
     Args:
