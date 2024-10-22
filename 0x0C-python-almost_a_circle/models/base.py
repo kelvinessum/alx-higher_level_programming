@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 """Defines a base model class."""
+import json
+import csv
+import turtle
 
 
 class Base:
@@ -92,7 +95,6 @@ class Base:
         except IOError:
             return []
 
-
     @classmethod
     def save_to_file_csv(cls, list_objs):
         """Write the CSV serialization of a list of objects to a file.
@@ -137,7 +139,6 @@ class Base:
         except IOError:
             return []
 
-
     @staticmethod
     def draw(list_rectangles, list_squares):
         """Draw Rectangles and Squares using the turtle module.
@@ -176,7 +177,4 @@ class Base:
                 turt.forward(sq.height)
                 turt.left(90)
             turt.hideturtle()
-
         turtle.exitonclick()
-    
-        
